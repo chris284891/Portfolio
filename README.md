@@ -1,5 +1,5 @@
 # Bootstrap-Portfolio
-This is my Bootstrap Portfolio
+This is my Bootstrap Portfolio. In this project I used Bootstrap (very nice btw) to format.
 
 # Getting Started
 If you want to edit this code. Just open any of the files and copy and paste the code into any coding program of your choice. Link to live website will be posted below
