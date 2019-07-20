@@ -21,3 +21,7 @@ a {
 a:hover {
     color: blue;
 }
+
+.navbar {
+    text-align: left;
+}
