@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: gray;
 }
 
 .navbar {
@@ -42,4 +42,13 @@ a:hover {
 
 .contactbug {
     padding-right: 17px;
+}
+
+.github {
+    text-align: right;
+}
+
+.linkedin {
+    text-align: left;
+    padding-left: 30px
 }
