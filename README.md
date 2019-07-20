@@ -1,3 +1,6 @@
+# Link
+https://chris284891.github.io/Portfolio/
+
 # Bootstrap-Portfolio
 This is my Bootstrap Portfolio. In this project I used Bootstrap to format.
 
@@ -6,6 +9,3 @@ If you want to edit this code. Just open any of the files and copy and paste the
 
 # Prequisites
 Just make sure you have a current updated browser.
-
-# Link
-https://chris284891.github.io/Bootstrap-Portfolio/
