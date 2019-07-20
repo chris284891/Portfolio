@@ -6,6 +6,7 @@ body {
 
 h1 {
     text-align: center;
+    padding-right: 16px;
 }
 
 .img {
@@ -28,4 +29,17 @@ a:hover {
 
 .p {
     padding-top: 50px;
+}
+
+.email {
+    text-align: right;
+}
+
+.number {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.contactbug {
+    padding-right: 17px;
 }
