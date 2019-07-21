@@ -55,28 +55,34 @@
             </ul>
         </nav>
         <br><br>
-        <div class="row">
-            <div class="col-sm-12">
-                <form action="mailto:chris284891@gmail.com" method="post" enctype="text/plain">
+        <form action="mailto:chris284891@gmail.com?Subject=New Contact" method="post" enctype="text/plain">
+            <div class="row">
+                <div class="col-sm-12">
                     <span id="name">Name
                         <input type="text" name="name">
                     </span>
                     <br><br>
-                    E-mail
-                    <input id="mail" type="text" name="mail">
+                    <span id="email">E-mail
+                        <input id="mail" type="text" name="mail">
+                    </span>
                     <br><br>
                     Message
                     <br>
                     <textarea type="text" name="message" style="height: 300px; width: 345px"></textarea>
                     <br><br>
-                    <button class="btn btn-primary btn-dark" type="submit" value="Send">Submit</button>
-                    <button class="btn btn-primary btn-dark" type="reset" value="Reset">Reset</button>
-                </form>
+                </div>
             </div>
-        </div>
-        <br><br>
+            <div class="row">
+                <div class="submit col-sm-6">
+                    <button class="btn btn-primary btn-dark" type="submit" value="Send">Submit</button>
+                </div>
+                <div class="reset col-sm-6">
+                    <button class="btn btn-primary btn-dark" type="reset" value="Reset">Reset</button>
+                </div>
+        </form>
+        <br><br><br><br>
         <div class="row">
-            <div class="col-sm-12">
+            <div class="copyright col-sm-12">
                 <div>Copyright ©</div>
             </div>
         </div>

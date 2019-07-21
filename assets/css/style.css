@@ -44,5 +44,21 @@ textarea {
 }
 
 #name {
-    padding-left: 3px
+    padding-right: 40px
+}
+
+#email {
+    padding-right: 41px
+}
+
+.reset {
+    padding-right: 400px;
+}
+
+.submit {
+    padding-left: 400px;
+}
+
+.copyright {
+    padding-left: 545px;
 }
