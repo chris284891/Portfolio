@@ -60,3 +60,7 @@ textarea {
     background-color:  #343a40;
     color: white;
 }
+
+#name {
+    padding-left: 3px
+}
