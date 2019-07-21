@@ -33,24 +33,6 @@ a:hover {
     padding-top: 50px;
 }
 
-.email {
-    text-align: right;
-}
-
-.number {
-    text-align: left;
-    padding-left: 30px;
-}
-
-.github {
-    text-align: right;
-}
-
-.linkedin {
-    text-align: left;
-    padding-left: 30px
-}
-
 input {
     background-color: #343a40;
     color: white;
