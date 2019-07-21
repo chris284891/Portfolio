@@ -1,12 +1,14 @@
 body {
     text-align: center;
-    background-color: black;
+    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/011/021/original/looping-black-triangular-background-animation.jpg");
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-    text-align: center;
     padding-right: 16px;
+    font-family: 'Fascinate', cursive;
+    font-size: 60px
 }
 
 .img {
@@ -40,10 +42,6 @@ a:hover {
     padding-left: 30px;
 }
 
-.contactbug {
-    padding-right: 17px;
-}
-
 .github {
     text-align: right;
 }
@@ -51,4 +49,14 @@ a:hover {
 .linkedin {
     text-align: left;
     padding-left: 30px
+}
+
+input {
+    background-color: #343a40;
+    color: white;
+}
+
+textarea {
+    background-color:  #343a40;
+    color: white;
 }
