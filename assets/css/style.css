@@ -12,9 +12,11 @@ h1 {
 }
 
 .img {
-    border-style: solid;
-    border-width: 5px;
-    border-color: lightgray;
+    border: 5px solid lightgray;
+}
+
+.img:hover  {
+    border: 5px solid lightslategrey;
 }
 
 a {
