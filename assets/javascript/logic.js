@@ -1,9 +1,9 @@
 $(".submit").click(function(){
 
     Swal.fire({
-      type: 'success',
+      type: 'Success!',
       title: 'Thanks!',
-      text: 'Look forward to chatting with you soon!',
+      text: 'I will be getting back to you shortly!',
       timer: 5000
     })
   });
