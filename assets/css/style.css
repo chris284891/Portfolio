@@ -15,7 +15,7 @@ h1 {
     border: 5px solid lightgray;
 }
 
-.img:hover  {
+.img:hover {
     border: 5px solid lightslategrey;
 }
 
@@ -29,6 +29,7 @@ a:hover {
 
 .navbar {
     text-align: left;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .p {
@@ -63,4 +64,13 @@ textarea {
 
 .copyright {
     padding-left: 545px;
+}
+
+/* <!-- couldn't change font at all for some reason --> */
+#copyrightfont {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact {
+    font-family: 'Kanit', sans-serif;
 }
