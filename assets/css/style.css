@@ -16,7 +16,7 @@ h1 {
 }
 
 .img:hover {
-    border: 5px solid lightslategrey;
+    border: 5px solid lightslategray;
 }
 
 a {
@@ -28,7 +28,7 @@ a:hover {
 }
 
 .navbar {
-    text-align: left;
+    font-size: 14px;
     font-family: 'Press Start 2P', cursive;
 }
 
