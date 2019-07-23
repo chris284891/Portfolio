@@ -74,3 +74,34 @@ textarea {
 .contact {
     font-family: 'Kanit', sans-serif;
 }
+
+@media only screen and (max-width: 1024px) {
+    [class*="copyright"] {
+        padding-left: 455px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="submit"] {
+        padding-left: 0px;
+    }
+    [class*="reset"] {
+        padding-right: 0px;
+    }
+    [class*="copyright"] {
+        padding-left: 330px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    [class*="submit"] {
+        padding-left: 0px;
+    }
+    [class*="reset"] {
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    [class*="copyright"] {
+        padding-left: 155px;
+    }
+}
