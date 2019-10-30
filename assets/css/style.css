@@ -19,6 +19,18 @@ h1 {
     border: 5px solid lightslategray;
 }
 
+.vid {
+    width: 540px; 
+    height: 307.97px;
+    margin-left: 12px;
+}
+
+.img2 {
+    width: 540px; 
+    height: 307.97px;
+    margin-right: 12px;
+}
+
 a {
     color: white;
 }
