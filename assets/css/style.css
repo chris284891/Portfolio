@@ -105,6 +105,22 @@ textarea {
     }
 }
 
+@media only screen and (max-width: 414px) {
+    [class*="submit"] {
+        padding-left: 0px;
+    }
+    [class*="reset"] {
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    [class*="copyright"] {
+        padding-left: 155px;
+    }
+    [id*="responsiveMargin"] {
+        margin-right: 25px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     [class*="submit"] {
         padding-left: 0px;
@@ -115,5 +131,8 @@ textarea {
     }
     [class*="copyright"] {
         padding-left: 155px;
+    }
+    [id*="responsiveMargin"] {
+        margin-right: 25px;
     }
 }
