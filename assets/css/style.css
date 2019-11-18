@@ -46,6 +46,7 @@ a:hover {
 
 .p {
     padding-top: 50px;
+    opacity: solid;
 }
 
 input {
@@ -85,6 +86,11 @@ textarea {
 
 .contact {
     font-family: 'Kanit', sans-serif;
+}
+
+#bioBox {
+    background-color: black;
+    opacity: 50%;
 }
 
 @media only screen and (max-width: 1024px) {
