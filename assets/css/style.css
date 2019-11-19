@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 body {
     text-align: center;
     background-image: url("https://hdqwalls.com/download/vaporwave-zl-1366x768.jpg");
@@ -13,11 +17,11 @@ h1 {
 }
 
 .img {
-    border: 5px solid lightgray;
+    border: 5px solid lightpink;
 }
 
 .img:hover {
-    border: 5px solid lightslategray;
+    border: 5px solid palevioletred;
 }
 
 .vid {
@@ -47,7 +51,7 @@ a:hover {
 
 .p {
     padding-top: 50px;
-    opacity: solid;
+    /* opacity: 1%; */
 }
 
 input {
@@ -90,8 +94,13 @@ textarea {
 }
 
 #bioBox {
-    background-color: black;
-    opacity: 50%;
+    background-color: transparent;
+    /* opacity: 50%; */
+}
+
+.textBox {
+    background-color: transparent;
+    /* opacity: 50%; */
 }
 
 @media only screen and (max-width: 1024px) {
