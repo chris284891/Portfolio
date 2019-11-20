@@ -1,6 +1,6 @@
-* {
+/* * {
     color: white;
-}
+} */
 
 body {
     text-align: center;
@@ -18,6 +18,15 @@ h1 {
 
 .img {
     border: 5px solid lightpink;
+
+}
+
+.imgRight {
+    margin-right: 5px;
+}
+
+.imgLeft {
+    margin-left: 5px;
 }
 
 .img:hover {
@@ -41,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: palevioletred;
 }
 
 .navbar {
@@ -94,13 +103,25 @@ textarea {
 }
 
 #bioBox {
-    background-color: transparent;
-    /* opacity: 50%; */
+    /* background-color: black;
+    opacity: 50%; */
+    background: rgba(38, 38, 38, 0.5);
+    margin-bottom: 60px;
+}
+
+#projectBox {
+    background: rgba(26, 26, 26, 0.5);
 }
 
 .textBox {
-    background-color: transparent;
-    /* opacity: 50%; */
+    /* background-color: transparent;
+    opacity: 50%; */
+    margin-top: 20px;
+}
+
+#liriBox {
+    margin-top: 15px;
+    margin-right: -27px;
 }
 
 @media only screen and (max-width: 1024px) {
