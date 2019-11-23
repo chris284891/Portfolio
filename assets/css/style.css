@@ -18,7 +18,8 @@ h1 {
 
 .img {
     border: 5px solid lightpink;
-
+    width: 540px;
+    height: 307.97px;
 }
 
 .imgRight {
@@ -43,6 +44,10 @@ h1 {
     width: 540px; 
     height: 307.97px;
     margin-right: 12px;
+}
+
+.img3 {
+    margin-right: 14px;
 }
 
 a {
@@ -105,12 +110,12 @@ textarea {
 #bioBox {
     /* background-color: black;
     opacity: 50%; */
-    background: rgba(38, 38, 38, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     margin-bottom: 60px;
 }
 
 #projectBox {
-    background: rgba(26, 26, 26, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .textBox {
@@ -119,9 +124,23 @@ textarea {
     margin-top: 20px;
 }
 
+.vid {
+    margin-left: 16px;
+}
+
+#peePee {
+    width: 516px;
+    margin-left: 21px;
+}
+
+#burgerBox {
+    margin-top: 21px;
+}
+
 #liriBox {
     margin-top: 15px;
-    margin-right: -27px;
+    margin-left: 13px;
+    width: 551px;
 }
 
 @media only screen and (max-width: 1024px) {
