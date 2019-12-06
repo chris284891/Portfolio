@@ -191,4 +191,23 @@ textarea {
     [id*="responsiveMargin"] {
         margin-right: 25px;
     }
+    [class*="resWidth"] {
+        width: 373px;
+        margin-right: 0px;
+    }
+    [class*="resWidth2"] {
+        width: 373px;
+        margin-left: 16px;
+    }
+    [id*="liriBox2"] {
+        width: 336px;
+        margin-left: 21px;
+    }
+    [id*="dapeePee"] {
+        width: 345px;
+        margin-left: 0px;
+    }
+    [id*="liriTitle"] {
+        margin-left: 32px;
+    }
 }
