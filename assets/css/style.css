@@ -38,6 +38,7 @@ h1 {
     width: 540px; 
     height: 307.97px;
     margin-left: 12px;
+    margin-top: -23px;
 }
 
 .img2 {
@@ -124,10 +125,6 @@ textarea {
     margin-top: 20px;
 }
 
-.vid {
-    margin-left: 16px;
-}
-
 #peePee {
     width: 516px;
     margin-left: 21px;
@@ -137,7 +134,7 @@ textarea {
     margin-top: 21px;
 }
 
-#liriBox {
+.liriBox {
     margin-top: 15px;
     margin-left: 13px;
     width: 551px;
@@ -199,7 +196,7 @@ textarea {
         width: 373px;
         margin-left: 16px;
     }
-    [id*="liriBox2"] {
+    [class*="liriBox2"] {
         width: 336px;
         margin-left: 21px;
     }
