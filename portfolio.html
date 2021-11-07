@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css?family=Fascinate|Ubuntu|Press+Start+2P|Kanit|Quicksand:300&display=swap"
@@ -64,69 +65,53 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h4><u>MILA</u></h4>
-                    <a target="_blank" href="https://github.com/swedishkinda/MilaReactTesting">GitHub Repo</a>
+                    <a id="change-color" onclick="changeColor('change-color'); return true;" class="ugh" target="_blank"
+                        href="https://github.com/swedishkinda/MilaReactTesting">GitHub
+                        Repo</a>
+                    <img src="images/wip.gif" class="wip" alt="WIP">
                     <a target="_blank" href="http://milacaptions.herokuapp.com/">
                         <img src="images/MILA.png" class="img img-fluid" alt="My Chef">
                     </a>
+                    <img src="images/wip.gif" class="wip" alt="WIP">
                     <div class="textBox">
                         <p>
                             MILA is a social app providing a curated database of Instagram captions. In addition to the
-                            general
-                            caption search, users are provided an interactive dashboard to collaboratively upload,
-                            share,
-                            and
-                            suggest clever photo captions with each other. Test your creativity with MILA. Offer caption
-                            suggestions on user photos and watch as the community ranks your wit. MILA is a relevant,
-                            millennial
-                            focused application.
-
-                            Welcome to the HUB!
-                        </p>
-                        <p>
-                            Nearly two out of every three adults aged 18-29 use Instagram. With nearly 1 BILLION monthly
-                            users,
-                            Instagram has become the third most popular social media network in the world. One might
-                            ask,
-                            how is
-                            there not already a curated database of witty instagram captions, relevant to pop-culture
-                            and
-                            the
-                            millennial lifestyle? We weren’t sure either. So we made one!
+                            general caption search, users are provided an interactive dashboard to collaboratively
+                            upload, share, and suggest clever photo captions with each other. Test your creativity with
+                            MILA. Offer caption suggestions on user photos and watch as the community ranks your wit.
+                            MILA is a relevant, millennial focused application.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h4><u>My Chef</u></h4>
-                    <a target="_blank" href="https://github.com/swedishkinda/My-Chef">GitHub Repo</a>
+                    <a id="change-color" onclick="changeColor('change-color'); return true;" class="ugh" target="_blank"
+                        href="https://github.com/swedishkinda/My-Chef">GitHub Repo</a>
                     <a target="_blank" href="https://swedishkinda.github.io/My-Chef/">
                         <img src="images/My-Chef.png" class="img img-fluid" alt="My Chef">
                     </a>
                     <div class="textBox">
                         <p>
-                            Problem:
-                            My Chef is a Javascript application that essentially returns a list of drink or meal recipes
-                            based
-                            on a given ingredient. Enter an ingredient and My Chef will return a list of possible
-                            recipes to
-                            help you come up with something delicious. If you can’t decide, My Chef will give you a
-                            random
-                            recipe as well!
+                            Problem: My Chef is a Javascript application that essentially returns a list of drink or
+                            meal recipes based on a given ingredient. Enter an ingredient and My Chef will return a list
+                            of possible recipes to help you come up with something delicious. If you can’t decide, My
+                            Chef will give you a random recipe as well!
                         </p>
                         <p>
-                            Tech:
-                            AJAX calls to two APIs. “The Meal DB” and “The Cocktail DB”. Utilizing a new technology:
-                            “Slick”.
-                            JQuery library for a carousel display. Bootstrap “Grid” implementation•String validation
-                            using
-                            “modal” alerts. Dynamically generated repeating elements in recipe table and carousel
-                            display.
+                            Tech: AJAX calls to two APIs. “The Meal DB” and “The Cocktail DB”. Utilizing a new
+                            technology: “Slick”. JQuery library for a carousel display. Bootstrap “Grid”
+                            implementation•String validation using “modal” alerts. Dynamically generated repeating
+                            elements in recipe table and carousel display.
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class=" resWidth col-sm-6">
-                        <div id="liriTitle"><h4><u>Liri</u></h4>
-                        <a target="_blank" href="https://github.com/swedishkinda/liri-node-app">GitHub Repo</a>
+                    <div class="resWidth col-sm-6">
+                        <div id="liriTitle">
+                            <h4><u>Liri</u></h4>
+                            <a id="change-color" onclick="changeColor('change-color'); return true;" class="ugh"
+                                target="_blank" href="https://github.com/swedishkinda/liri-node-app">GitHub
+                                Repo</a>
                         </div>
                         <br>
                         <iframe class="vid img img-fluid" src="https://www.youtube.com/embed/v3Cd6raLesY"
@@ -135,47 +120,39 @@
                             allowfullscreen></iframe>
                         <div class="liriBox liriBox2">
                             <p>
-                                Problem:
-                                Make a node app where the user can search for a song on Spotify, movie on IMDB, or for a
-                                concert
-                                on
-                                Bandsintown. All must be done in the terminal.
+                                Problem: Make a node app where the user can search for a song on Spotify, movie on IMDB,
+                                or for a concert on Bandsintown. All must be done in the terminal.
                             </p>
                             <p>
-                                Solution:
-                                Made a js file with api calls and console logs.
+                                Solution: Made a js file with api calls and console logs.
                             </p>
                             <p>
                                 Tech: API calls, Console logs, Inquirer npm, Spotify npm, Axios npm, Moment npm, Fs npm,
-                                Dotenv
-                                npm.
+                                Dotenv npm.
                             </p>
                         </div>
                     </div>
                     <div class="resWidth2 col-sm-6">
                         <h4><u>Burger Time</u></h4>
-                        <a target="_blank" href="https://github.com/swedishkinda/Burger">GitHub Repo</a>
+                        <a style="margin-bottom: -7px !important;" id="change-color"
+                            onclick="changeColor('change-color'); return true;" class="ugh" target="_blank"
+                            href="https://github.com/swedishkinda/Burger">GitHub Repo</a>
                         <br>
                         <a target="_blank" href="https://serene-thicket-33141.herokuapp.com/">
                             <img src="images/Burger.png" class="img img3 img-fluid" alt="Burger Time!">
                         </a>
                         <div id="burgerBox">
                             <p>
-                                Problem:
-                                Make a handlebars and database app where the user can add something to the database and
-                                update a
-                                value in one of the columns.
+                                Problem: Make a handlebars and database app where the user can add something to the
+                                database and update a value in one of the columns.
                             </p>
                             <p>
-                                Solution:
-                                Made a database with a whole bunch of files to put and post to said database. Made
-                                handlebars files
-                                and js files linked together.
+                                Solution: Made a database with a whole bunch of files to put and post to said database.
+                                Made handlebars files and js files linked together.
                             </p>
-                            <p id="peePee dapeePee">
+                            <p id="burgerBoxFix daburgerBoxFix375px">
                                 Tech: MySQL Database, Express NPM, Express Handlebars NPM,MySQL NPM, AJAX, CRUD,
-                                Handlebars,Node.js,
-                                Routers.
+                                Handlebars,Node.js, Routers.
                             </p>
                         </div>
                     </div>
@@ -185,7 +162,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h4><u>Psychic Game</u></h4>
-                    <a target="_blank" href="https://github.com/swedishkinda/Psychic-Game">GitHub Repo</a>
+                    <a id="change-color" onclick="changeColor('change-color'); return true;" class="ugh" target="_blank"
+                        href="https://github.com/swedishkinda/Psychic-Game">GitHub Repo</a>
                     <a target="_blank" href="https://swedishkinda.github.io/Psychic-Game/">
                         <img src="images/Psychic-Game.png" class="img img2 img-fluid" alt="Psychic Game">
                     </a>
@@ -195,11 +173,9 @@
                             Make a game so user has to guess what letter the computer has picked.
                         </p>
                         <p>
-                            Solution:
-                            Made an array of all letters and a random number generator for the computer's letter. Made
-                            an
-                            onkey
-                            function for user guess. Made if statements for correct and incorrect guesses.
+                            Solution: Made an array of all letters and a random number generator for the computer's
+                            letter. Made an <em>onkey</em> function for user guess. Made if statements for correct and
+                            incorrect guesses.
                         </p>
                         <p>
                             Tech:
@@ -209,29 +185,22 @@
                 </div>
                 <div class="col-sm-6">
                     <h4><u>Crystal Collector</u></h4>
-                    <a target="_blank" href="https://github.com/swedishkinda/Crystal-Collector">GitHub Repo</a>
+                    <a id="change-color" onclick="changeColor('change-color'); return true;" class="ugh" target="_blank"
+                        href="https://github.com/swedishkinda/Crystal-Collector">GitHub
+                        Repo</a>
                     <a target="_blank" href="https://swedishkinda.github.io/Crystal-Collector/">
                         <img src="images/Crystal-Collector.png" class="img img-fluid" alt="Crystal Collector">
                     </a>
                     <div class="textBox">
                         <p>
-                            Problem:
-                            Make a game where the user has to click on four different buttons to add up random numbers
-                            to
-                            match
-                            a bigger random number. User chosen numbers have to be hidden and all numbers must change
-                            after
-                            each
-                            round.
+                            Problem: Make a game where the user has to click on four different buttons to add up random
+                            numbers to match a bigger random number. User chosen numbers have to be hidden and all
+                            numbers must change after each round.
                         </p>
                         <p>
-                            Solution:
-                            Made two different arrays of all numbers to be used. Made random number generater for both
-                            arrays.
-                            Assigned returned numbers to user buttons and goal score. Used if statements for when goal
-                            score
-                            is
-                            reached and logged wins/losses.
+                            Solution: Made two different arrays of all numbers to be used. Made random number generater
+                            for both arrays. Assigned returned numbers to user buttons and goal score. Used if
+                            statements for when goal score is reached and logged wins/losses.
                         </p>
                         <p>
                             Tech: Arrays, onclick functions, math.random, JQuery, parseInt.
@@ -251,5 +220,11 @@
     </div>
 
 </body>
+
+<script>
+    function changeColor(id) {
+        document.getElementById(id).style.color = "palevioletred"; // forecolor
+    }
+</script>
 
 </html>

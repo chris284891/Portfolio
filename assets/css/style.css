@@ -4,16 +4,22 @@
 
 body {
     text-align: center;
+    /* Whoops */
     background-image: url("../../images/vaporwave.jpg");
     /* Credit goes to hdqwalls.com. Author is anonymous */
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
 
+.container a {
+    color: white;
+}
+
 h1 {
     padding-right: 16px;
     font-family: 'Fascinate', cursive;
-    font-size: 40px
+    font-size: 40px;
+    margin-top: 1em;
 }
 
 .img {
@@ -51,10 +57,6 @@ h1 {
     margin-right: 14px;
 }
 
-a {
-    color: white;
-}
-
 a:hover {
     color: palevioletred;
 }
@@ -62,6 +64,10 @@ a:hover {
 .navbar {
     font-size: 14px;
     font-family: 'Press Start 2P', cursive;
+}
+
+.nav-link {
+    color: white;
 }
 
 .p {
@@ -80,11 +86,11 @@ textarea {
 }
 
 #name {
-    padding-right: 40px
+    padding-right: 40px;
 }
 
 #email {
-    padding-right: 41px
+    padding-right: 41px;
 }
 
 .reset {
@@ -117,6 +123,7 @@ textarea {
 
 #projectBox {
     background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
 }
 
 .textBox {
@@ -125,7 +132,7 @@ textarea {
     margin-top: 20px;
 }
 
-#peePee {
+#burgerBoxFix {
     width: 516px;
     margin-left: 21px;
 }
@@ -139,6 +146,13 @@ textarea {
     margin-left: 13px;
     width: 551px;
 }
+
+.ugh {
+    margin-bottom: 1em;
+    display: block;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
     [class*="copyright"] {
@@ -200,7 +214,7 @@ textarea {
         width: 336px;
         margin-left: 21px;
     }
-    [id*="dapeePee"] {
+    [id*="daburgerBoxFix375px"] {
         width: 345px;
         margin-left: 0px;
     }
