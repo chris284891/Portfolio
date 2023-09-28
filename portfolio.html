@@ -1,235 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-        href="https://fonts.googleapis.com/css?family=Fascinate|Ubuntu|Press+Start+2P|Kanit|Quicksand:300&display=swap"
-        rel="stylesheet">
-    <link rel='icon' href='images/favicon.ico' type='image/x-icon'>
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fascinate|Ubuntu|Press+Start+2P|Kanit|Quicksand:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Christopher Hedlund</h1>
-            </div>
-        </div>
-        <br>
-        <div id="bioBox" style="margin-bottom: 0px; padding: 0.6rem 1em;">
-            <div class="contact row">
-                <div class="col-sm-6">
-                    <a href="mailto:christopher.m.hedlund@gmail.com">christopher.m.hedlund@gmail.com</a>
-                </div>
-                <div class="col-sm-6">
-                    <a target="_blank" href="https://github.com/swedishkinda">GitHub</a>
-                </div>
-            </div>
-            <div class="contact row">
-                <div class="col-sm-6">
-                    <div>
-                        <a href="tel://4434173490">443.417.3490</a>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <a target="_blank" href="https://www.linkedin.com/in/christopher-hedlund-a6013b8a">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div id="bioBox" style="margin-bottom: 0px; padding: 0.6rem 1em;">
-            <nav class="navbar navbar-expand-sm">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" style="padding-right: 29px">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" style="padding-right: 29px">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html" style="padding-right: 29px"><u>Projects</u></a>
-                    </li>
-                    <li>
-                        <a id="responsiveMargin" target="_blank" class="nav-link"
-                            href="assets/files/chris_hedlund_resume.pdf">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <br><br>
-        <div id="projectBox">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4><u>MILA</u></h4>
-                    <a id="change-color1" onclick="changeColor('change-color1'); return true;" class="ugh" target="_blank"
-                        href="https://github.com/swedishkinda/MilaReactTesting">GitHub
-                        Repo</a>
-                    <img src="images/wip.gif" class="wip" alt="WIP">
-                    <a target="_blank" href="http://milacaptions.herokuapp.com/">
-                        <img src="images/MILA.png" class="img img-fluid" alt="My Chef">
-                    </a>
-                    <img src="images/wip.gif" class="wip" alt="WIP">
-                    <div class="textBox">
-                        <p style="text-align: left;">
-                            MILA is a social app providing a curated database of Instagram captions. In addition to the
-                            general caption search, users are provided an interactive dashboard to collaboratively
-                            upload, share, and suggest clever photo captions with each other. Test your creativity with
-                            MILA. Offer caption suggestions on user photos and watch as the community ranks your wit.
-                            MILA is a relevant, millennial focused application.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h4><u>My Chef</u></h4>
-                    <a id="change-color2" onclick="changeColor('change-color2'); return true;" class="ugh" target="_blank"
-                        href="https://github.com/swedishkinda/My-Chef">GitHub Repo</a>
-                    <a target="_blank" href="https://swedishkinda.github.io/My-Chef/">
-                        <img src="images/My-Chef.png" class="img img-fluid" alt="My Chef">
-                    </a>
-                    <div class="textBox">
-                        <p style="text-align: left;">
-                            Problem: My Chef is a Javascript application that essentially returns a list of drink or
-                            meal recipes based on a given ingredient. Enter an ingredient and My Chef will return a list
-                            of possible recipes to help you come up with something delicious. If you can’t decide, My
-                            Chef will give you a random recipe as well!
-                        </p>
-                        <p style="text-align: left;">
-                            Tech: AJAX calls to two APIs. “The Meal DB” and “The Cocktail DB”. Utilizing a new
-                            technology: “Slick”. JQuery library for a carousel display. Bootstrap “Grid”
-                            implementation•String validation using “modal” alerts. Dynamically generated repeating
-                            elements in recipe table and carousel display.
-                        </p>
-                    </div>
-                </div>
-                <div class="row" style="width: 100%;">
-                    <div class="resWidth col-sm-6">
-                        <div id="liriTitle">
-                            <h4><u>Liri</u></h4>
-                            <a id="change-color3" onclick="changeColor('change-color3'); return true;" class="ugh"
-                                target="_blank" href="https://github.com/swedishkinda/liri-node-app">GitHub
-                                Repo</a>
-                        </div>
-                        <br>
-                        <iframe class="vid img img-fluid" src="https://www.youtube.com/embed/v3Cd6raLesY"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="liriBox liriBox2" style="width: 100%">
-                            <p style="text-align: left;">
-                                Problem: Make a node app where the user can search for a song on Spotify, movie on IMDB,
-                                or for a concert on Bandsintown. All must be done in the terminal.
-                            </p>
-                            <p style="text-align: left;">
-                                Solution: Made a js file with api calls and console logs.
-                            </p>
-                            <p style="text-align: left;">
-                                Tech: API calls, Console logs, Inquirer npm, Spotify npm, Axios npm, Moment npm, Fs npm,
-                                Dotenv npm.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="resWidth2 col-sm-6" style="padding-right: 0px; padding-left: 28px;">
-                        <h4><u>Burger Time</u></h4>
-                        <a style="margin-bottom: -7px !important;" id="change-color4"
-                            onclick="changeColor('change-color4'); return true;" class="ugh" target="_blank"
-                            href="https://github.com/swedishkinda/Burger">GitHub Repo</a>
-                        <br>
-                        <a target="_blank" href="https://burgertime-54fbd9344554.herokuapp.com/">
-                            <img src="images/Burger.png" class="img img3 img-fluid" alt="Burger Time!">
-                        </a>
-                        <div id="burgerBox">
-                            <p style="text-align: left;">
-                                Problem: Make a handlebars and database app where the user can add something to the
-                                database and update a value in one of the columns.
-                            </p>
-                            <p style="text-align: left;">
-                                Solution: Made a database with a whole bunch of files to put and post to said database.
-                                Made handlebars files and js files linked together.
-                            </p>
-                            <p id="burgerBoxFix daburgerBoxFix375px" style="text-align: left;">
-                                Tech: MySQL Database, Express NPM, Express Handlebars NPM,MySQL NPM, AJAX, CRUD,
-                                Handlebars,Node.js, Routers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4><u>Psychic Game</u></h4>
-                    <a id="change-color5" onclick="changeColor('change-color5'); return true;" class="ugh" target="_blank"
-                        href="https://github.com/swedishkinda/Psychic-Game">GitHub Repo</a>
-                    <a target="_blank" href="https://swedishkinda.github.io/Psychic-Game/">
-                        <img src="images/Psychic-Game.png" class="img img2 img-fluid" alt="Psychic Game">
-                    </a>
-                    <div class="textBox">
-                        <p style="text-align: left;">
-                            Problem:
-                            Make a game so user has to guess what letter the computer has picked.
-                        </p>
-                        <p style="text-align: left;">
-                            Solution: Made an array of all letters and a random number generator for the computer's
-                            letter. Made an <em>onkey</em> function for user guess. Made if statements for correct and
-                            incorrect guesses.
-                        </p>
-                        <p style="text-align: left;">
-                            Tech:
-                            Arrays, document.onkeyup, math.random, if statements, and push.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h4><u>Crystal Collector</u></h4>
-                    <a id="change-color6" onclick="changeColor('change-color6'); return true;" class="ugh" target="_blank"
-                        href="https://github.com/swedishkinda/Crystal-Collector">GitHub
-                        Repo</a>
-                    <a target="_blank" href="https://swedishkinda.github.io/Crystal-Collector/">
-                        <img src="images/Crystal-Collector.png" class="img img-fluid" alt="Crystal Collector">
-                    </a>
-                    <div class="textBox">
-                        <p style="text-align: left;">
-                            Problem: Make a game where the user has to click on four different buttons to add up random
-                            numbers to match a bigger random number. User chosen numbers have to be hidden and all
-                            numbers must change after each round.
-                        </p>
-                        <p style="text-align: left;">
-                            Solution: Made two different arrays of all numbers to be used. Made random number generater
-                            for both arrays. Assigned returned numbers to user buttons and goal score. Used if
-                            statements for when goal score is reached and logged wins/losses.
-                        </p>
-                        <p style="text-align: left;">
-                            Tech: Arrays, onclick functions, math.random, JQuery, parseInt.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <br><br>
-    <div class="row">
+      <div class="row">
         <div class="col-sm-12">
-            <div id="copywritefont">Copyright ©</div>
+          <h1>Christopher Hedlund</h1>
         </div>
+      </div>
+      <br />
+      <div id="bioBox" style="margin-bottom: 0px; padding: 0.6rem 1em">
+        <div class="contact row">
+          <div class="col-sm-6">
+            <a href="mailto:christopher.m.hedlund@gmail.com"
+              >christopher.m.hedlund@gmail.com</a
+            >
+          </div>
+          <div class="col-sm-6">
+            <a target="_blank" href="https://github.com/swedishkinda">GitHub</a>
+          </div>
+        </div>
+        <div class="contact row">
+          <div class="col-sm-6">
+            <div>
+              <a href="tel://4434173490">443.417.3490</a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/christopher-hedlund-a6013b8a"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div id="bioBox" style="margin-bottom: 0px; padding: 0.6rem 1em">
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="padding-right: 29px"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                style="padding-right: 29px"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="portfolio.html"
+                style="padding-right: 29px"
+                ><u>Projects</u></a
+              >
+            </li>
+            <li>
+              <a
+                id="responsiveMargin"
+                target="_blank"
+                class="nav-link"
+                href="assets/files/chris_hedlund_resume.pdf"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <br /><br />
+      <div id="projectBox">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4><u>MILA</u></h4>
+            <a
+              id="change-color1"
+              onclick="changeColor('change-color1'); return true;"
+              class="ugh"
+              target="_blank"
+              href="https://github.com/swedishkinda/MilaReactTesting"
+              >GitHub Repo</a
+            >
+            <img src="images/wip.gif" class="wip" alt="WIP" />
+            <a target="_blank" href="http://milacaptions.herokuapp.com/">
+              <img src="images/MILA.png" class="img img-fluid" alt="My Chef" />
+            </a>
+            <img src="images/wip.gif" class="wip" alt="WIP" />
+            <div class="textBox">
+              <p style="text-align: left">
+                MILA is a social app providing a curated database of Instagram
+                captions. In addition to the general caption search, users are
+                provided an interactive dashboard to collaboratively upload,
+                share, and suggest clever photo captions with each other. Test
+                your creativity with MILA. Offer caption suggestions on user
+                photos and watch as the community ranks your wit. MILA is a
+                relevant, millennial focused application.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h4><u>My Chef</u></h4>
+            <a
+              id="change-color2"
+              onclick="changeColor('change-color2'); return true;"
+              class="ugh"
+              target="_blank"
+              href="https://github.com/swedishkinda/My-Chef"
+              >GitHub Repo</a
+            >
+            <a target="_blank" href="https://swedishkinda.github.io/My-Chef/">
+              <img
+                src="images/My-Chef.png"
+                class="img img-fluid"
+                alt="My Chef"
+              />
+            </a>
+            <div class="textBox">
+              <p style="text-align: left">
+                Problem: My Chef is a Javascript application that essentially
+                returns a list of drink or meal recipes based on a given
+                ingredient. Enter an ingredient and My Chef will return a list
+                of possible recipes to help you come up with something
+                delicious. If you can’t decide, My Chef will give you a random
+                recipe as well!
+              </p>
+              <p style="text-align: left">
+                Tech: AJAX calls to two APIs. “The Meal DB” and “The Cocktail
+                DB”. Utilizing a new technology: “Slick”. JQuery library for a
+                carousel display. Bootstrap “Grid” implementation•String
+                validation using “modal” alerts. Dynamically generated repeating
+                elements in recipe table and carousel display.
+              </p>
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            <div class="resWidth col-sm-6">
+              <div id="liriTitle">
+                <h4><u>Liri</u></h4>
+                <a
+                  id="change-color3"
+                  onclick="changeColor('change-color3'); return true;"
+                  class="ugh"
+                  target="_blank"
+                  href="https://github.com/swedishkinda/liri-node-app"
+                  >GitHub Repo</a
+                >
+              </div>
+              <br />
+              <iframe
+                class="vid img img-fluid"
+                src="https://www.youtube.com/embed/v3Cd6raLesY"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="liriBox liriBox2" style="width: 100%">
+                <p style="text-align: left">
+                  Problem: Make a node app where the user can search for a song
+                  on Spotify, movie on IMDB, or for a concert on Bandsintown.
+                  All must be done in the terminal.
+                </p>
+                <p style="text-align: left">
+                  Solution: Made a js file with api calls and console logs.
+                </p>
+                <p style="text-align: left">
+                  Tech: API calls, Console logs, Inquirer npm, Spotify npm,
+                  Axios npm, Moment npm, Fs npm, Dotenv npm.
+                </p>
+              </div>
+            </div>
+            <div
+              class="resWidth2 col-sm-6"
+              style="padding-right: 0px; padding-left: 28px"
+            >
+              <h4><u>Burger Time</u></h4>
+              <a
+                style="margin-bottom: -7px !important"
+                id="change-color4"
+                onclick="changeColor('change-color4'); return true;"
+                class="ugh"
+                target="_blank"
+                href="https://github.com/swedishkinda/Burger"
+                >GitHub Repo</a
+              >
+              <br />
+              <img src="images/wip.gif" class="wip" alt="WIP" />
+              <a
+                target="_blank"
+                href="https://burgertime-54fbd9344554.herokuapp.com/"
+              >
+                <img
+                  src="images/Burger.png"
+                  class="img img3 img-fluid"
+                  alt="Burger Time!"
+                />
+              </a>
+              <img src="images/wip.gif" class="wip" alt="WIP" />
+              <div id="burgerBox">
+                <p style="text-align: left">
+                  Problem: Make a handlebars and database app where the user can
+                  add something to the database and update a value in one of the
+                  columns.
+                </p>
+                <p style="text-align: left">
+                  Solution: Made a database with a whole bunch of files to put
+                  and post to said database. Made handlebars files and js files
+                  linked together.
+                </p>
+                <p
+                  id="burgerBoxFix daburgerBoxFix375px"
+                  style="text-align: left"
+                >
+                  Tech: MySQL Database, Express NPM, Express Handlebars
+                  NPM,MySQL NPM, AJAX, CRUD, Handlebars,Node.js, Routers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="row">
+          <div class="col-sm-6">
+            <h4><u>Psychic Game</u></h4>
+            <a
+              id="change-color5"
+              onclick="changeColor('change-color5'); return true;"
+              class="ugh"
+              target="_blank"
+              href="https://github.com/swedishkinda/Psychic-Game"
+              >GitHub Repo</a
+            >
+            <a
+              target="_blank"
+              href="https://swedishkinda.github.io/Psychic-Game/"
+            >
+              <img
+                src="images/Psychic-Game.png"
+                class="img img2 img-fluid"
+                alt="Psychic Game"
+              />
+            </a>
+            <div class="textBox">
+              <p style="text-align: left">
+                Problem: Make a game so user has to guess what letter the
+                computer has picked.
+              </p>
+              <p style="text-align: left">
+                Solution: Made an array of all letters and a random number
+                generator for the computer's letter. Made an
+                <em>onkey</em> function for user guess. Made if statements for
+                correct and incorrect guesses.
+              </p>
+              <p style="text-align: left">
+                Tech: Arrays, document.onkeyup, math.random, if statements, and
+                push.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h4><u>Crystal Collector</u></h4>
+            <a
+              id="change-color6"
+              onclick="changeColor('change-color6'); return true;"
+              class="ugh"
+              target="_blank"
+              href="https://github.com/swedishkinda/Crystal-Collector"
+              >GitHub Repo</a
+            >
+            <a
+              target="_blank"
+              href="https://swedishkinda.github.io/Crystal-Collector/"
+            >
+              <img
+                src="images/Crystal-Collector.png"
+                class="img img-fluid"
+                alt="Crystal Collector"
+              />
+            </a>
+            <div class="textBox">
+              <p style="text-align: left">
+                Problem: Make a game where the user has to click on four
+                different buttons to add up random numbers to match a bigger
+                random number. User chosen numbers have to be hidden and all
+                numbers must change after each round.
+              </p>
+              <p style="text-align: left">
+                Solution: Made two different arrays of all numbers to be used.
+                Made random number generater for both arrays. Assigned returned
+                numbers to user buttons and goal score. Used if statements for
+                when goal score is reached and logged wins/losses.
+              </p>
+              <p style="text-align: left">
+                Tech: Arrays, onclick functions, math.random, JQuery, parseInt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <br /><br />
+    <br /><br />
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="copywritefont">Copyright ©</div>
+      </div>
     </div>
+  </body>
 
-</body>
-
-<script>
-     // for color to show already clicked
+  <script>
+    // for color to show already clicked
     function changeColor(id) {
-        document.getElementById(id).style.color = "palevioletred";
+      document.getElementById(id).style.color = "palevioletred";
     }
-</script>
-
+  </script>
 </html>
