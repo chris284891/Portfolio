@@ -24,8 +24,8 @@ h1 {
 
 .img {
     border: 5px solid lightpink;
-    width: 540px;
-    height: 307.97px;
+    /* width: 540px; */
+    /* height: 307.97px; */
 }
 
 .imgRight {
@@ -41,15 +41,15 @@ h1 {
 }
 
 .vid {
-    width: 540px; 
-    height: 307.97px;
+    /* width: 540px;  */
+    /* height: 307.97px; */
     margin-left: 12px;
     margin-top: -23px;
 }
 
 .img2 {
-    width: 540px; 
-    height: 307.97px;
+    /* width: 540px;  */
+    /* height: 307.97px; */
     margin-right: 12px;
 }
 
