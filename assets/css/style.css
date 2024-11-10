@@ -13,6 +13,7 @@ body {
 
 .container a {
     color: white;
+    cursor: pointer;
 }
 
 h1 {
