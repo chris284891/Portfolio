@@ -72,6 +72,8 @@
             </li>
             <li>
               <a
+                id="change-color7"
+                onclick="changeColor('change-color7'); return true;"
                 target="_blank"
                 class="nav-link px-5"
                 href="assets/files/chris_hedlund_resume.pdf"
@@ -116,4 +118,11 @@
       </div>
     </div>
   </body>
+
+  <script>
+    // for color to show already clicked
+    function changeColor(id) {
+      document.getElementById(id).style.color = "palevioletred";
+    }
+  </script>
 </html>
