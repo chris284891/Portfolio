@@ -1,10 +1,4 @@
-/* * {
-    color: white;
-} */
-
 body {
-    text-align: center;
-    /* Whoops */
     background-image: url("../../images/vaporwave.jpg");
     /* Credit goes to hdqwalls.com. Author is anonymous */
     color: white;
@@ -29,32 +23,7 @@ h1 {
     /* height: 307.97px; */
 }
 
-.imgRight {
-    margin-right: 5px;
-}
-
-.imgLeft {
-    margin-left: 5px;
-}
-
-.img:hover {
-    border: 5px solid palevioletred;
-}
-
-.vid {
-    /* width: 540px;  */
-    /* height: 307.97px; */
-    margin-left: 12px;
-    margin-top: -23px;
-}
-
-.img2 {
-    /* width: 540px;  */
-    /* height: 307.97px; */
-    margin-right: 12px;
-}
-
-a:hover {
+a:hover, a.nav-link:hover, a#project-box {
     color: palevioletred;
 }
 
@@ -67,11 +36,6 @@ a:hover {
     color: white;
 }
 
-.p {
-    padding-top: 50px;
-    /* opacity: 1%; */
-}
-
 input {
     background-color: #343a40;
     color: white;
@@ -80,150 +44,20 @@ input {
 textarea {
     background-color:  #343a40;
     color: white;
-}
-
-#name {
-    padding-right: 40px;
-}
-
-#email {
-    padding-right: 41px;
-}
-
-.reset {
-    padding-right: 400px;
-}
-
-.submit {
-    padding-left: 400px;
-}
-
-.copyright {
-    padding-left: 545px;
-}
-
-/* <!-- couldn't change font at all for some reason --> */
-#copywritefont {
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 1em;
+    height: 300px;
+    max-width: 345px
 }
 
 .contact {
     font-family: 'Kanit', sans-serif;
 }
 
-#bioBox {
+.bio-box {
     /* background-color: black;
     opacity: 50%; */
     background: rgba(0, 0, 0, 0.7);
-    margin-bottom: 60px;
 }
 
-#projectBox {
+#project-box {
     background: rgba(0, 0, 0, 0.7);
-    padding: 30px;
-}
-
-.textBox {
-    /* background-color: transparent;
-    opacity: 50%; */
-    margin-top: 20px;
-}
-
-#burgerBoxFix {
-    width: 516px;
-    margin-left: 21px;
-}
-
-#burgerBox {
-    margin-top: 21px;
-}
-
-.liriBox {
-    margin-top: 15px;
-    margin-left: 13px;
-    width: 529px;
-}
-
-.ugh {
-    margin-bottom: 1em;
-    display: block;
-}
-
-.wip {
-    width: 100%
-}
-
-
-
-@media only screen and (max-width: 2000px) {
-    [class*="copyright"] {
-        padding-left: 455px;
-    }
-    [class*="vid"] {
-        min-height: 292px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    [class*="submit"] {
-        padding-left: 0px;
-    }
-    [class*="reset"] {
-        padding-right: 0px;
-    }
-    [class*="copyright"] {
-        padding-left: 330px;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    [class*="submit"] {
-        padding-left: 0px;
-    }
-    [class*="reset"] {
-        padding-right: 30px;
-        padding-top: 20px;
-    }
-    [class*="copyright"] {
-        padding-left: 155px;
-    }
-    [id*="responsiveMargin"] {
-        margin-right: 25px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    [class*="submit"] {
-        padding-left: 0px;
-    }
-    [class*="reset"] {
-        padding-right: 30px;
-        padding-top: 20px;
-    }
-    [class*="copyright"] {
-        padding-left: 155px;
-    }
-    [id*="responsiveMargin"] {
-        margin-right: 25px;
-    }
-    [class*="resWidth"] {
-        width: 373px;
-        margin-right: 0px;
-    }
-    [class*="resWidth2"] {
-        width: 373px;
-        margin-left: 16px;
-    }
-    [class*="liriBox2"] {
-        width: 336px;
-        margin-left: 21px;
-    }
-    [id*="daburgerBoxFix375px"] {
-        width: 345px;
-        margin-left: 0px;
-    }
-    [id*="liriTitle"] {
-        margin-left: 32px;
-    }
 }
